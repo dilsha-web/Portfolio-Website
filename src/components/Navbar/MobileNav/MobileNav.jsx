@@ -1,5 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
+import { Link } from "react-router-dom";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
@@ -9,19 +10,27 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <img src="./images/logo.png" className="logo" />
+          <img src="./images/logo.png" className="logo" alt="" />
           <ul>
             <li>
-              <a className="menu-item">Home</a>
+              <Link to="/" className="menu-item">
+                Home
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Skills</a>
+              <Link to="/skills" className="menu-item">
+                Skills
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Work Experience</a>
+              <Link to="/experience" className="menu-item">
+                Work Experience
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Contact Me</a>
+              <Link to="/contact" className="menu-item">
+                Contact Me
+              </Link>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
