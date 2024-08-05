@@ -15,28 +15,28 @@ const Hero = () => {
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="./images/img1.png"></img>
+            <img src="./images/img1.png" alt=""></img>
           </div>
 
-          <img src="./images/profile.png"></img>
+          <img src="./images/profile.png" alt=""></img>
         </div>
         <div>
           <div className="tech-icon">
-            <img src="./images/img2.png"></img>
+            <img src="./images/img2.png" alt=""></img>
           </div>
 
           <div className="tech-icon">
-            <img src="./images/img3.png"></img>
+            <img src="./images/img3.png" alt=""></img>
           </div>
 
           <div className="tech-icon">
-            <img src="./images/img4.png"></img>
+            <img src="./images/img4.png" alt=""></img>
           </div>
           <div className="tech-icon">
-            <img src="./images/img5.jpg"></img>
+            <img src="./images/img5.jpg" alt=""></img>
           </div>
           <div className="tech-icon">
-            <img src="./images/img6.png"></img>
+            <img src="./images/img6.png" alt=""></img>
           </div>
         </div>
       </div>
