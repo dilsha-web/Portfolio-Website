@@ -8,6 +8,7 @@
     border: 1.5px solid #F05941 ;
     padding: 1.5rem;
     margin-bottom: 2rem;
+    
 }
 
 .contact-details-card .icon{
@@ -27,8 +28,11 @@
     object-fit: contain;
 
 }
-
-.contact-details-card p{
-    font-size: 0.9rem;
-    font-weight: 400;
+.contact-details-card a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+   
 }
+

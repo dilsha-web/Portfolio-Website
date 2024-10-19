@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
+import Projects from "./components/Projects/Projects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="skills" element={<Skills />} />
           <Route path="experience" element={<WorkExperience />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<ContactMe />} />
         </Routes>
       </div>

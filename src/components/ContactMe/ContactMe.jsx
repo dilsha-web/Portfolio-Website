@@ -4,6 +4,8 @@ import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
+  const linkedinUrl =
+    "https://www.linkedin.com/in/dilsha-wijesinghe-3a5088193/";
   return (
     <section id="contact" className="contact-container ">
       <h5>Contact Me</h5>
@@ -12,11 +14,11 @@ const ContactMe = () => {
         <div style={{ flex: 1 }}>
           <ContactInfoCard
             iconurl="./images/contact/email.png"
-            text="rameshi.wijesinghe@gmail.com"
+            email="rameshi.wijesinghe@gmail.com"
           />
           <ContactInfoCard
             iconurl="./images/contact/linkedin.png"
-            text="https://www.linkedin.com/in/dilsha-wijesinghe-3a5088193/"
+            linkedin={linkedinUrl}
           />
         </div>
         <div style={{ flex: 1 }}>

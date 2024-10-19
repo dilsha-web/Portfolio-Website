@@ -2,10 +2,10 @@
     background: rgba(102, 87, 87, 0.1);
     position: sticky;
     top: 0;
+    height: 6rem;
     z-index: 30;
     backdrop-filter: blur(50px);
-  
-    padding: 0.5rem 0;
+    
 }
 
 .nav-content{
@@ -18,7 +18,7 @@
 }
 
 .logo{
-    width: 6rem;
+    width: 4rem;
     height: auto;
 }
 

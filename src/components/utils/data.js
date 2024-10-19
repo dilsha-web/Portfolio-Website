@@ -3,8 +3,8 @@ export const SKILLS = [
     title: "Frontend",
     icon: "./images/skills/img1.png",
     skills: [
-      { skill: "HTML5" },
-      { skill: "CSS3(Sass/SCSS)" },
+      { skill: "HTML" },
+      { skill: "CSS" },
       { skill: "JavaScript" },
       { skill: "React.js" },
       { skill: "Vue.js" },
@@ -14,9 +14,9 @@ export const SKILLS = [
     title: "Backend",
     icon: "./images/skills/img2.png",
     skills: [
+      { skill: "PHP" },
       { skill: "Java" },
       { skill: "Python" },
-      { skill: "PHP" },
       { skill: "Node.js" },
     ],
   },
@@ -25,6 +25,7 @@ export const SKILLS = [
     icon: "./images/skills/img3.png",
     skills: [
       { skill: "GitHub" },
+      { skill: "Laravel" },
       { skill: "Visual Studio Code" },
       { skill: "Figma" },
       { skill: "Docker" },
@@ -36,7 +37,7 @@ export const SKILLS = [
     icon: "./images/skills/img4.png",
     skills: [
       { skill: "Problem-solving" },
-      { skill: "Colloboration" },
+      { skill: "Collaboration" },
       { skill: "Presentation" },
       { skill: "Responsible" },
       { skill: "Adoptation" },
@@ -55,6 +56,6 @@ export const WORK_EXPERIENCE = [
     title: "Intern Full stack developer",
     date: "January 2024 - June 2024",
     responsibilities:
-      "Develop laravel8.x based advanced backend components like authentication systems.",
+      "Developed web applications  using laravel framework as backend and vue.js as frontend. Able to engage with team projects in order to enhance my skills.",
   },
 ];
